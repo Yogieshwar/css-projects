@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blue;
+    text-align: center;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: row;
+    box-shadow: 0 5px 15px rgba(225, 225, 225, 0.35);
+}
+.signin{
+    background-color: white;
+    width: 50%;
+    
+}
+.signin>h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.7px;
+
+
+
+}
+.social-icons{
+    margin: 20px 0px;
+
+    
+    
+}
+
+
+.social-icons>p{
+    
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    width: 40px;
+    height: 40px;
+    font-weight: bolder;
+    font-size: 1.35rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.signin h4{
+    color: hwb(0 41% 54% / 0.788);
+    margin: 0px;
+    font-size: 1.15rem;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0px 40px;
+    margin-top: 0;
+
+}
+#input{
+    background-color: #eee;
+    border: none;
+    outline: none;
+    margin: 8px 0px;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    
+
+}
+a{
+    text-decoration: none;
+    margin: 10px 0px 10px;
+    padding-bottom: 5px;
+    color: hwb(0 41% 54% / 0.788);
+
+}
+.signin button{
+    margin: 15px 10px;
+    border-radius: 25px;
+    padding: 10px 45px;
+    background-color: rgb(225, 13, 13);
+    color: #fff;
+    border: 1px solid transparent;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.signup{
+    background-color:rgb(225, 13, 13);
+    width: 50%;
+   /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;*/
+    
+
+}
+.signup button{
+    margin: 25px 10px;
+    border-radius: 25px;
+    padding: 10px 45px;
+    background-color: rgb(225, 13, 13);
+    color: #fff;
+    border: 1px solid transparent;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.signup h2{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: 0.9px;
+    margin: 100px 0px 20px;
+    
+}
+.signup p{
+    margin: 0px;
+    color: #eee;
+    font-size: 1.25rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    button:hover{
+        background-color: rgb(27, 30, 81);
+        
+    }
+
+

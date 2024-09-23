@@ -1,0 +1,377 @@
+body{
+    background: linear-gradient(90deg,#4b6cb7 30%,#182848);
+    margin: 0px 30px 0px;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo h2{
+    color: white;
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo h2:hover{
+    color: red;
+}
+
+.logo h2 span{
+    color: red;
+    font-size: 3.5rem;
+}
+.logo h2 span:hover{
+    color: white;
+}
+
+.container nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    right: -150px;
+
+}
+.container nav ul li{
+    
+    margin: 0 15px;
+    
+}
+.container nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.container nav ul li a:hover{
+    color: orange;
+    text-decoration: underline;
+    
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+}
+.men_tex{
+    display: flex;
+    flex-direction: column;
+}
+.main .men_text h1{
+    font-size: 100px;
+    position: relative;
+    top: -60px;
+    color: white;
+    text-shadow: 0 2px 8px rgb(35, 32, 32);
+}
+.main_image img{
+    width: 600px;
+    position: relative;
+    left: 10px;
+}
+.men_text p{
+    color: white;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top:-120px
+}
+.main-text.main-but{
+    display: flex;
+    gap: 50px;
+    
+}
+.buy-button,.sell-button{
+    position: relative;
+    top: -100px;
+    left: 40px;
+    
+    padding: 15px 30px;
+    background-color: #295eda;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.sell-button{
+    background-color: transparent;
+
+}
+.featured{
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 50px;
+    margin-top: 200px;
+    
+}
+.featured p{
+    color: white;
+    font-size: 1.25rem;
+    position: relative;
+    bottom: -10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.companies{
+    width: 100%;
+    height: 100px;
+   border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(90deg,#0048d7 30%,#4b6cb7);
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+.companies h3{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, ;
+}
+.companies img{
+    width: 100px;
+    color: white;
+}
+.analytics{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin: 100px 0px;
+
+    
+
+}
+.analytics img{
+    width: 600px;
+}
+.analytics-desc h6{
+    color: white;
+    font-size: 1.45rem;
+    font-size: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.analytics-desc h3{
+     color: white;
+     font-size: 50px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     position: relative;
+     top: -40px;
+}
+.analytics-desc p{
+    color: white;
+    font-size: 1.25rem;
+    position: relative;
+    top: -40px;
+}
+.analytics-desc button{
+    background-color: #295eda;
+    padding: 15px 45px;
+    border-radius: 50px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+.app{
+width: 100%;
+height: 100vh;
+display: flex;
+margin: 100px 0px;
+
+}
+.app img{
+    width: 600px;
+}
+.app-desc h6{
+    color: white;
+    font-size: 1.45rem;
+    position: relative;
+    top: 50px;
+    font-size: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.app-desc h2{
+    color: white;
+    font-size: 4.5rem;
+    position: relative;
+    left: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.app-desc span{
+    color: red;
+    font-size: 3.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.app-desc p{
+    color: white;
+    font-size: 1.25rem;
+    position: relative;
+    top: -50px;
+    left: 75px;
+
+}
+.app-desc button{
+    background-color: #295eda;
+    padding: 15px 45px;
+    border-radius: 50px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    
+
+}
+.rev-container{
+    width: 100%;
+    height: 100vh;
+    margin: 100px 0px 200px;
+}
+.rev-container h2{
+    font-size: 55px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.rev-container span{
+    color: rgba(255, 166, 0, 0.863);
+    font-family: mv boli;
+    
+
+}
+.review-box{
+    width: 95%;
+    display: flex;
+    margin: 200px 8px 100px;
+}
+.review-card{
+    width: 300px;
+    height: 350px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin: 0px 10px;
+    background-color: #0c0c0d;
+    box-shadow: 0 2px 8px rgba(240, 238, 238, 0.5);
+    display: flex;
+    flex-direction: column;
+
+}
+.review-profile{
+    display: flex;
+    justify-content: center;
+
+}
+.review-profile img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    top: -100px;
+}
+.review-text{
+    text-align: center;
+}
+.review-text h2{
+    font-size: 2rem;
+    position: relative;
+    top: -100px;
+}
+.review-text p{
+    color: white;
+    position: relative;
+    top: -100px;
+    line-height: 25px;
+}
+.start{
+    width: 100%;
+    height: 70vh;
+    margin: 100px 0px;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(90deg,rgb(116, 87, 220)30%,rgb(232, 75, 232));
+    box-shadow: 0 2px 8px rgb(35, 32, 32);;
+}
+.start p{
+    font-size: 1.5rem;
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    top: 30px;
+    
+}
+.start h2{
+    color: white;
+    font-size: 3.55rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 2px 8px rgb(35, 32, 32);
+
+}
+.start h1{
+    color: white;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.75px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 2px 8px rgb(35, 32, 32);
+}
+.start button{
+    background-color: #0c0c0d;
+    color: white;
+    margin-top: 50px;
+    padding: 15px 50px;
+    border-radius: 35px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    background-color: #97b4ed;
+    height: 40vh;
+    box-shadow: 0 2px 8px rgb(35, 32, 32);;
+}
+.footer-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.footer-tag{
+    text-align: center;
+}
+.footer-tag h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.footer-tag p{
+    margin: 10px 0px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.footer-tag i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+.copy{
+    text-align: center;
+    font-weight: bold;
+
+}
+.footer-tag i:hover{
+    color: orange;
+}
