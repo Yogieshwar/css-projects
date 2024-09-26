@@ -11,10 +11,27 @@
     
 }
 .result{
-    background-color: blueviolet;
+    background: hsla(212, 76%, 68%, 1);
+
+     background: linear-gradient(0deg, hsla(212, 76%, 68%, 1) 20%, hsla(225, 79%, 54%, 1) 30%);
+
+     background: -moz-linear-gradient(0deg, hsla(212, 76%, 68%, 1) 20%, hsla(225, 79%, 54%, 1) 30%);
+
+     background: -webkit-linear-gradient(0deg, hsla(212, 76%, 68%, 1) 0%, hsla(225, 79%, 54%, 1) 30%);
+
+     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6EA8EB", endColorstr="#2E5CE6", GradientType=1 );
+
+
+
+
+
+
+
+
+
     width: 50%;
     border-radius: 10px;
-    margin: 0px 0px 1px 1px;
+    margin: 0px 0px 1px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;

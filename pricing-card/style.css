@@ -18,6 +18,9 @@ body{
     margin-top: 1px;
 }
 .plans{
+    width: 800px;
+    margin-left: 170px;
+  
     display: flex;
     justify-content: space-around;
 }
